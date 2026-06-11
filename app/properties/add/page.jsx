@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import PropertyAddForm from '@/components/PropertyAddForm';
 
 const PropertyAddPage = () => {
@@ -12,3 +13,14 @@ const PropertyAddPage = () => {
   );
 };
 export default PropertyAddPage;
+=======
+import React from 'react'
+
+const Add  = () => {
+  return (
+    <div>Add </div>
+  )
+}
+
+export default Add 
+>>>>>>> bfe0e83f1561b81225d55ae02ea5e3f2466cd29e

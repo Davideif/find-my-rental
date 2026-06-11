@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
@@ -80,3 +81,14 @@ const PropertyPage = () => {
   );
 };
 export default PropertyPage;
+=======
+import React from 'react'
+
+const page = () => {
+  return (
+    <div>page</div>
+  )
+}
+
+export default page
+>>>>>>> bfe0e83f1561b81225d55ae02ea5e3f2466cd29e

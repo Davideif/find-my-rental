@@ -88,4 +88,8 @@ const PropertySchema = new Schema(
 
 const Property = models.Property || model('Property', PropertySchema);
 
+<<<<<<< HEAD
 export default Property;
+=======
+export default Property;
+>>>>>>> bfe0e83f1561b81225d55ae02ea5e3f2466cd29e

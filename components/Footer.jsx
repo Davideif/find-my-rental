@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from 'next/image';
 import logo from '@/assets/images/logo.png';
 
@@ -14,10 +15,48 @@ const Footer = () => {
         <div>
           <p className='text-sm text-gray-500 mt-2 md:mt-0'>
             &copy; {currentYear} FindMyRental. All rights reserved.
+=======
+import React from 'react'
+import logo from '@/assets/images/logo.png';
+import Link from 'next/link';
+import Image from 'next/image';
+
+const Footer = () => {
+    
+    const currentYear = new Date().getFullYear()
+   
+
+  return (
+    <footer className="bg-gray-200 py-4 mt-auto">
+      <div
+        className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4"
+      >
+        <div className="mb-4 md:mb-0">
+          <Image src={logo} alt="Logo" className="h-8 w-auto" />
+        </div>
+        <div
+          className="flex flex-wrap justify-center md:justify-start mb-4 md:mb-0"
+        >
+          <ul className="flex space-x-4">
+            <li><a href="/properties.html">Properties</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <p className="text-sm text-gray-500 mt-2 md:mt-0">
+            &copy; {currentYear} PropertyPulse. All rights reserved.
+>>>>>>> bfe0e83f1561b81225d55ae02ea5e3f2466cd29e
           </p>
         </div>
       </div>
     </footer>
+<<<<<<< HEAD
   );
 };
 export default Footer;
+=======
+  )
+}
+
+export default Footer
+>>>>>>> bfe0e83f1561b81225d55ae02ea5e3f2466cd29e
